@@ -12,3 +12,4 @@ This code sample covers:
 ## Links
 * How to [setup JetPack Compose](https://developer.android.com/jetpack/compose/setup?authuser=3)
 * Tutorial: [Jetpack Compose Basics](https://developer.android.com/jetpack/compose/tutorial?authuser=3)
+* [Learn about Compose, a modern toolkit for building native Android UI](https://developer.android.com/courses/pathways/compose?authuser=3)
