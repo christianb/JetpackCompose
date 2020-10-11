@@ -16,7 +16,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.ui.tooling.preview.Preview
 
-class EmptyComposeActivity : AppCompatActivity() {
+class ComposeActivity1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +33,7 @@ fun NewsStory() {
         val typography = MaterialTheme.typography
         Column(modifier = Modifier.padding(16.dp)) {
             val imageModifier = Modifier
-                .preferredHeightIn(maxHeight = 180.dp)
+                .preferredHeightIn(max = 180.dp)
                 .fillMaxWidth()
                 .clip(shape = RoundedCornerShape(4.dp))
 
