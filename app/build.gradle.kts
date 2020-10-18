@@ -39,7 +39,7 @@ android {
 	}
 
 	composeOptions {
-		kotlinCompilerExtensionVersion = "1.0.0-alpha04"
+		kotlinCompilerExtensionVersion = "1.0.0-alpha05"
 		kotlinCompilerVersion = "1.4.0"
 	}
 }
@@ -48,9 +48,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib:1.4.10")
 	implementation("androidx.core:core-ktx:1.3.2")
 	implementation("androidx.appcompat:appcompat:1.2.0")
-	implementation("androidx.compose.ui:ui:1.0.0-alpha04")
-	implementation("androidx.compose.material:material:1.0.0-alpha04")
-	implementation("androidx.ui:ui-tooling:1.0.0-alpha04")
+	implementation("androidx.compose.ui:ui:1.0.0-alpha05")
+	implementation("androidx.compose.material:material:1.0.0-alpha05")
+	implementation("androidx.ui:ui-tooling:1.0.0-alpha05")
 	
 	testImplementation("junit:junit:4.13")
 
